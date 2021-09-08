@@ -1,0 +1,549 @@
+@media (min-width: 340px){
+  .item_margin{
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* about */
+  #about h2{
+    font-size: 23px;
+  }
+  #about h3{
+    font-size: 18px;
+  }
+  #about p{
+    font-size: 15px;
+    margin: 16px 0;
+  }
+  #about li{
+    font-size: 14px;
+    text-indent: 18px;
+    line-height: 32px;
+  }
+  #about li>i{
+    font-size: 12px;
+  }
+  #about button{
+    width: 170px;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  /* common */
+  .item-title{
+    margin-top: 30px;
+  }
+  .item-title h1{
+    font-size: 32px;
+  }
+  .item-list{
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  .caption{
+    padding-left: 15px;
+  }
+  .item-list p{
+    margin: 22px 0;
+  }
+
+  /* team */
+  #team .item_margin{
+    margin-top: 30px;
+    padding-bottom: 80px
+  }
+  #team .carousel-indicators,#clients .carousel-indicators,#testimonials .carousel-indicators {
+    bottom: 45px;
+  }
+
+  /* services */
+  #services h3{
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  /* clients */
+  #clients .item_margin, #testimonials .item_margin{
+    padding-bottom: 100px;
+  }
+
+  /* work */
+  .column_title ul{
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .column_title ul>li{
+    padding: 0 5px;
+  }
+
+  /* testimonials */
+  #testimonials .item-list{
+    flex-direction: column;
+    text-align: center;
+  }
+  #testimonials .item-list h3{
+    font-size: 16px;
+  }
+
+  /* contact */
+  #contact .item-list{
+    display: block;
+    margin-bottom: 40px;
+  }
+  #contact .item-list p{
+    text-align: center;
+  }
+
+  /* footer */
+  #footer .row{
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column-reverse;
+  }
+  .copyright{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+  }
+  .partner{
+    padding: 15px 0 0;
+  }
+}
+
+@media (min-width: 480px){
+  .item_margin{
+    margin-top: 50px;
+    padding-bottom: 40px;
+  }
+  
+  /* banner */
+  #banner{
+    height: 50vh;
+  }
+  .banner_text h1{
+    font-size: 34px;
+  }
+  .banner_text p{
+    font-size: 16px;
+  }
+  #banner img{
+    display: block;
+    margin-top: 100px;
+  }
+
+  /* about */
+  #about h2{
+    font-size: 34px;
+  }
+  #about h3{
+    font-size: 20px;
+  }
+  #about p{
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  #about li{
+    font-size: 18px;
+    text-indent: 25px;
+    line-height: 34px;
+  }
+  #about li>i{
+    font-size: 14px;
+  }
+  #about button{
+    width: 192px;
+    height: 45px;
+    margin-top: 24px;
+  }
+
+  /* common */
+  .item-title {
+    margin-top: 50px;
+  }
+  .item-title h1{
+    font-size: 44px;
+    padding-bottom: 8px;
+  }
+  .item-list{
+    margin-bottom: 22px;
+  }
+  .item-list p {
+    margin: 24px 0;
+  }
+  
+  /* team */
+  #team .item_margin{
+    margin-top: 40px;
+  }
+  
+  /* services */
+  #services h3{
+    font-size: 25px;
+    margin-top: 24PX;
+  }
+
+  /* clients */
+  #clients .item_margin{
+    padding-bottom: 90px;
+  }
+  /* work */
+  #work .column_title{
+    margin-bottom: 10px;
+  }
+  .column_title ul{
+    font-size: 16px;
+  }
+  .column_title ul>li{
+    padding: 0 8px;
+  }
+
+  /* testimoonials */
+  #testimonials .item_margin{
+    padding-bottom: 80px;
+  }
+  #testimonials .item-list h3{
+    font-size: 17px;
+    margin: 0 70px 42px;
+  }
+
+  /* footer */
+  .copyright{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .partner{
+    padding: 15px 0 0;
+  }
+}
+
+@media (min-width: 768px){
+  .item_margin{
+    margin-top: 70px;
+    padding-bottom: 40px;
+  }
+
+  /* navbar */
+  .navbar-nav>li>a {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .navbar-nav>li>a:hover{
+    border-bottom: 3px solid #292929;
+  }
+  .navbar-nav>li>a.active{
+    border-bottom: 3px solid #292929;
+  }
+  
+  /* banner */
+  #banner{
+    height: 75vh;
+  }
+  .banner_text h1{
+    font-size: 40px;
+  }
+  #banner img{
+    display: block;
+    margin-top: 200px;
+  }
+
+
+
+  /* about */
+  #about .item_margin{
+    margin-top: 70px;
+    padding-bottom: 70px;
+  }
+  #about button{
+    margin-top: 24px;
+  }
+  #about li>i{
+    font-size: 18px;
+  }
+  
+  /* common */
+  .item-title {
+    margin-top: 70px;
+  }
+  .item-list{
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 0px;
+    display: block;
+  }
+  .item-list p {
+    margin-top: 25px;
+    margin-bottom: 38px;
+  }
+  .caption{
+    padding-left: 0px;
+  }
+  
+  /* team */
+  #team .item-list img, #services .item-list img{
+    float: none;
+  }
+  #team .item_margin {
+    margin-top: 70px;
+    padding-bottom: 110px;
+  }
+  #team .carousel-indicators,#clients .carousel-indicators,#testimonials .carousel-indicators {
+    bottom: 60px;
+  }
+  
+  /* clients */
+  #clients .item-list img{
+    margin-top: 30px;
+  }
+  #clients .item_margin{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+  }
+
+  /* work */
+  #work .column_title{
+    margin-bottom: 30px;
+  }
+  .column_title ul{
+    font-size: 18px;
+    margin: 0;
+  }
+  .column_title ul>li{
+    padding: 0 15px;
+  }
+
+  /* testimonials */
+  #testimonials .item_margin {
+    padding-bottom: 150px;
+  }
+
+  /* contact */
+  .form-group {
+    margin-bottom: 27px;
+  }
+  #contact .item-list {
+    margin-bottom: 60px;
+  }
+  #contact .item-list p {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px;  
+  }
+
+  /* footer */
+  #footer .row{
+    flex-direction: row;
+  }
+  .copyright{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .partner{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px){
+  /* banner */
+  #banner{
+    height: 92vh;
+  }
+  .banner_text h1{
+    font-size: 44px;
+  }
+  #banner img{
+    display: block;
+    margin-top: 280px;
+  }
+
+  /* about */
+  #about h2{
+    font-size: 28px;
+  }
+
+  #about li{
+    font-size: 16px;
+    text-indent: 18px;
+    line-height: 28px;
+  }
+  #about li>i{
+    font-size: 14px;
+  }
+  #about button{
+    margin-top: 18px;
+  }
+  #about .item_margin{
+    margin-top: 80px;
+    padding-bottom: 30px;
+  }
+
+  /* common */
+  .item-title {
+    margin-top: 70px;
+  }
+
+  /* team */
+  #team .item_margin {
+    margin-top: 70px;
+    padding-bottom: 110px;
+  }
+  #team .carousel-indicators,#clients .carousel-indicators,#testimonials .carousel-indicators {
+    bottom: 70px;
+  }
+
+  /* services */
+  #services .item_margin {
+    margin-top: 80px;
+    padding-bottom: 40px;
+  }
+  
+  /* clients */
+  #clients .item_margin{
+    margin-top: 60px;
+    padding-bottom: 180px;
+  }
+
+  /* work */
+  #work .item_margin {
+    margin-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  /* testimonials */
+  #testimonials .item_margin {
+    padding-bottom: 155px;
+  }
+
+
+  /* contact */
+  #contact .item-list {
+    margin: 40px 110px 80px;
+  }
+  #contact .item-list p{
+    margin: 0 0 50PX;
+  }
+
+  /* footer */
+  /* .footer .row{
+    padding-left: 15px;
+    padding-right: 15px;
+  } */
+}
+
+@media (min-width: 1200px){
+
+  /* about */
+  #about h2{
+    font-size: 34px;
+    color: #222222;
+    margin-top: 6px;
+    padding-bottom: 9px;
+  }
+  #about h2 span{
+    border-bottom: 4px solid #fcac45;
+    padding-bottom: 8px;
+  }
+  #about p{
+    line-height: 25px;
+    color: #6c6c6c;
+    margin: 26px 0 35px;
+  }
+  
+  #about button{
+    border: 1px solid #7f7f7f;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    font-size: 12PX;
+    color: #616161;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  #about button img{
+    margin-right: 8px;
+  }
+
+  /* common */
+  .item-title{
+    margin-top: 94px;
+  }
+  .item-title>i{
+    display: block;
+    width: 97px;
+    height: 4px;
+    background-color: #fcac45;
+    margin: 10px auto;
+  }
+  .item-title .short-line{
+    width: 66px;
+    height: 4px;
+    background-color: #b37b33;
+  }
+  
+  
+  .item-list h3{
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .item-list h4{
+    font-size: 16px;
+  }
+  .item-list p{
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 38px;
+  }
+
+  /* team */
+  #team .item-list img, #services .item-list img{
+    float: none;
+  }
+  #team .item_margin{
+    margin-top: 86px;
+    padding-bottom: 123px;
+  }
+  #team .carousel-indicators {
+    bottom: 81px;
+  }
+  
+  /* services */
+  #services .item_margin{
+    margin-top: 126px;
+    padding-bottom: 48px;
+  }
+
+  /* clients */
+  #clients .item_margin{
+    margin-top: 66px;
+    padding-bottom: 211px;
+  }
+  #clients .carousel-indicators{
+    bottom: 98px;
+  }
+
+  /* work */
+  #work .item_margin{
+    margin-top: 110px;
+    padding-bottom: 85px;
+  }
+
+  /* testimonials */
+  #testimonials .carousel-indicators{
+    bottom: 97px;
+  }
+  #testimonials .item_margin{
+    padding-bottom: 167px;
+  }
+  #testimonials .item-list h3{
+    margin: 0 100px 42px;
+  }
+
+  /* contact */
+  #contact .item-list{
+    margin: 40px 160px 100px;
+  }
+}

@@ -1,0 +1,244 @@
+/* @media (min-width: 768px){
+  .navbar_serve{
+    display: none;
+  }
+}
+@media (min-width: 825px){
+  .navbar_serve{
+    display: block;
+  }
+}  */
+html{
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+}
+b{
+  font-weight: 600;
+}
+i{
+  font-style: italic;
+}
+
+
+/* 轮播图 */
+#banner{
+  height: 38vh;
+  background-color: #111111;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.banner_text h1{
+  font-size: 26px;
+  color: #878787;
+}
+.banner_text h1 span{
+  color: #fcac45;
+  font-weight: 600;
+}
+.banner_text p{
+  font-size: 15px;
+  color: #c3c3c3;
+}
+#banner img{
+  display: block;
+  margin-top: 70px;
+  animation: all 4s infinite;
+}
+
+/* about */
+#about .img-responsive{
+  display: block;
+}
+
+#about h3{
+  color: #636363; 
+}
+#about h2{
+  font-size: 34px;
+  color: #222222;
+  margin-top: 6px;
+  padding-bottom: 9px;
+}
+#about h2 span{
+  border-bottom: 4px solid #fcac45;
+  padding-bottom: 8px;
+}
+#about p{
+  font-size: 18px;
+  line-height: 25px;
+  color: #6c6c6c;
+  margin: 26px 0 35px;
+}
+#about li{
+  font-size: 18px;
+  color: #5a5a5a;
+  background: url(../images/about_li_icon.png) left center no-repeat;
+  text-indent: 25px;
+  line-height: 34px;
+}
+#about button{
+  width: 192px;
+  height: 45px;
+  border: 1px solid #7f7f7f;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  font-size: 12PX;
+  color: #616161;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+#about button:hover{
+  transition: .2s ease-in;
+  background-color: #e7e7e7;
+}
+#about button img{
+  margin-right: 8px;
+}
+
+/* team */
+#team{
+  background: #070707;
+}
+#team .item-list img, #services .item-list img{
+  float: left;
+}
+
+/* services */
+#services .item-title, #services .item-list, #work .item-title, .column .active, #contact .item-title{
+  color: #222222;
+}
+#services .item-title p, #work .item-title p{
+  font-size: 14px;
+  color: #6c6c6c;
+  line-height: 23px;
+  margin-top: 33px;
+}
+#services .short-line, #work .short-line, #contact .short-line{
+  background-color: #fdc57c;
+}
+#services .item-list p{
+  margin-top: 16px;
+}
+#services .item-list img{
+  cursor: pointer;
+}
+#services .item-list img:hover{
+  transition: .2s ease-in;
+  background-color: #CCCCCC;
+}
+
+
+#clients, #testimonials{
+  background-color: #0b0b0b;
+}
+#clients .item-list img{
+  margin-top: 30px;
+}
+#clients .item-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#work .item-title p{
+  font-size: 16px;
+}
+.column_title h3{
+  float: left;
+  font-size: 18px;
+}
+.column_title ul{
+  float: right;
+}
+.column_title ul>li{
+  float: left;
+  color: #6c6c6c;
+  border-right: 1px solid #6c6c6c;
+}
+.column_title ul>li:nth-of-type(4){
+  border: none;
+  padding-right: 0;
+}
+
+.column_list div{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#testimonials .item-list h3{
+  font-size: 17px;
+  color: #e7e7e7;
+}
+#testimonials .item-list p{
+  font-size: 17px;
+  margin-bottom: 0;
+  color: #b2b2b2;
+}
+
+/* contact */
+#contact .item-list p{
+  color: #6c6c6c;
+}
+.item-list form{
+  text-align: left;
+  color: #636363;
+  font-size: 14px;
+}
+.item-list form span{
+  color: #db0000;
+  margin-left: 3px;
+}
+.form-control{
+  height: 42px;
+  border-radius: 0;
+  border-color: #999999;
+}
+.form_message .form-control{
+  resize: none;
+  height: 165px;
+}
+.item-list form .btn_send{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+.item-list form .btn-default{
+  border: none;
+  border-radius: 0;
+  background-color: #fcac45;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 9px 61px;
+}
+.item-list form .btn-default:hover{
+  transition: .2s ease-in;
+  background-color: #ff9100;
+}
+.form_message .form-control:hover{
+  transition: .2s ease-in;
+  background-color: #f7f7f7;
+}
+
+#footer{
+  background-color: #222222;
+}
+#footer .row{
+  display: flex;
+  align-items: center;
+}
+.copyright{
+  font-size: 12px;
+  color: #b2b2b2;
+  flex: 1;
+}
+.partner img{
+  padding: 0 4px;
+}
+

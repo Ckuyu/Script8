@@ -1,0 +1,91 @@
+header,header .navbar{
+  height: 95px;
+  background-color: #111111;
+  border: none;
+  margin: 0;
+  z-index: 9999;
+}
+header{
+  position: sticky;
+  top: 0;
+}
+
+.nav_logo,header .navbar-inverse .navbar-nav>li>a{
+  color: #FFFFFF;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+}
+.nav_logo{
+  font-size: 24px;
+}
+
+header .container{
+  margin-top: 35px;
+}
+header .icon-bar{
+  background-color: #FFFFFF;
+}
+header .navbar-inverse{
+  background-color: #111111;
+  color: #FFFFFF;
+}
+/* @media (min-width: 768px){
+  .container {
+    width: 800px;
+  }
+} */
+
+
+.item-title{
+  color: #FFFFFF;
+  text-align: center;
+}
+.item-title h1{
+  font-size: 44px;
+  padding-bottom: 8px;
+}
+.item-title>i{
+  display: block;
+  width: 97px;
+  height: 4px;
+  background-color: #fcac45;
+  margin: 10px auto;
+}
+.item-title .short-line{
+  width: 66px;
+  height: 4px;
+  background-color: #b37b33;
+}
+
+.item-list{
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 24px;
+}
+.item-list h3{
+  font-size: 20px;
+  margin-top: 15px;
+}
+.item-list h4{
+  font-size: 16px;
+}
+.item-list p{
+  font-size: 14px;
+  margin-top: 25px;
+  margin-bottom: 38px;
+}
+
+
+.carousel-indicators li,.carousel-indicators .active{
+  width: 9px;
+  height: 9px;
+  border: none;
+  border-radius: 0;
+  background: #FFFFFF;
+  margin: 0 4px;
+}
+.carousel-indicators .active{
+  background: #fcac45;
+}
+
